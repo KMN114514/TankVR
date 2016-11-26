@@ -7,8 +7,6 @@ Project("{DA1982A5-1D5F-E00F-33DF-9F9B603EA824}") = "TankVR", "Assembly-CSharp.c
 EndProject
 Project("{DA1982A5-1D5F-E00F-33DF-9F9B603EA824}") = "TankVR", "Assembly-CSharp-Editor.csproj", "{CCEBBF27-B425-EC94-AE67-841D32130164}"
 EndProject
-Project("{DA1982A5-1D5F-E00F-33DF-9F9B603EA824}") = "TankVR", "Assembly-UnityScript.unityproj", "{6A078EE9-3BFD-19F5-FA0A-FBF312858809}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{CCEBBF27-B425-EC94-AE67-841D32130164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCEBBF27-B425-EC94-AE67-841D32130164}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCEBBF27-B425-EC94-AE67-841D32130164}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A078EE9-3BFD-19F5-FA0A-FBF312858809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A078EE9-3BFD-19F5-FA0A-FBF312858809}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A078EE9-3BFD-19F5-FA0A-FBF312858809}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A078EE9-3BFD-19F5-FA0A-FBF312858809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
