@@ -3,7 +3,7 @@
 var kinman:GameObject;
 
 function Start () {
-	  InvokeRepeating("kinumi", 1, 0.1);
+	  InvokeRepeating("kinumi", 1, 0.5);
 }
 
 function kinumi(){
