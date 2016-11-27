@@ -4,7 +4,7 @@ var MyStyle:GUIStyle;
 var time = 120;
 
 function Start(){
-time = 120;
+time = 90;
 InvokeRepeating("timecont", 0, 1);
 }
 
@@ -14,10 +14,9 @@ GUI.Label(Rect(0,50,Screen.width,100),"Time:"+time,MyStyle);
 
 function timecont(){
  time--;
- if(time == 60 && Score.scr >= 10 ){
+ if(time == 0 && Score.scr >= 4 ){
  Application.LoadLevel("clear_St1");
- }
-  if(time == 60 && Score.scr < 10 ){
+ }else if(time == 0 && Score.scr < 10 ){
  Application.LoadLevel("GameOver");
  }
 }
