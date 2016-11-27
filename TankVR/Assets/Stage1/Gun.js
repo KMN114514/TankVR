@@ -2,6 +2,9 @@
 
 var BulletPrefab:GameObject;
 var BF:int = 0;
+public var SE : AudioSource;
+
+
 
 function Update () {
 	//if(Input.GetMouseButtonDown(0)){
@@ -9,6 +12,8 @@ function Update () {
 	//}
 
 	if (Input.GetKey("space") && BF == 0) {
+			SE=GetComponent(AudioSource);
+			SE.PlayOneShot(SE.clip);
 			Fire();
 			BF = 1;
 			Invoke("activBF",3);
