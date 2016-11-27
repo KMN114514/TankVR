@@ -9,11 +9,11 @@ function Start () {
 
 function kinumi(){
 	
-	if(cont<100){
-	Instantiate(kinman,Vector3(Random.Range(-100f, 100f),0f,100f),  Quaternion.Euler(0, 180, 0));
-	Instantiate(kinman,Vector3(Random.Range(-100f, 100f),0f,-100f),  Quaternion.Euler(0, 0, 0));
-	Instantiate(kinman,Vector3(-100f,0f,Random.Range(-100f, 100f)),  Quaternion.Euler(0, 90, 0));
-	Instantiate(kinman,Vector3(100f,0f,Random.Range(-100f, 100f)),  Quaternion.Euler(0, -90, 0));
+	if(cont<50){
+	Instantiate(kinman,Vector3(Random.Range(-150f, 150f),0f,150f),  Quaternion.Euler(0, 180, 0));//down
+	Instantiate(kinman,Vector3(Random.Range(-150f, 150f),0f,-150f),  Quaternion.Euler(0, 0, 0));//up
+	Instantiate(kinman,Vector3(-150f,0f,Random.Range(-150f, 150f)),  Quaternion.Euler(0, 90, 0));//right
+	Instantiate(kinman,Vector3(150f,0f,Random.Range(-150f, 150f)),  Quaternion.Euler(0, -90, 0));//left
 	}
 	cont++;
 }
